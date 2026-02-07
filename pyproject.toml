@@ -1,0 +1,19 @@
+[project]
+name = "mpm-utils"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # ---Machine learning---
+    "scikit-learn",
+
+    # ---Working with rasters---
+    "numpy",
+    "rasterio",
+    "geopandas",
+
+    # ---Statistics and visualisation---
+    "matplotlib"
+
+]
